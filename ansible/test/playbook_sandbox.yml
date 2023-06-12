@@ -1,0 +1,9 @@
+---
+- name: Example Playbook
+  hosts: localhost
+  gather_facts: False
+
+  tasks:
+    - name: Run show version on remote devices
+      cisco.ios.ios_command:
+        commands: show run 

@@ -1,0 +1,3 @@
+netbox/
+dvcr8svc01_venv/
+ansible/test/filter_plugins/__*

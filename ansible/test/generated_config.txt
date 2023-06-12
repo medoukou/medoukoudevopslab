@@ -1,0 +1,29 @@
+
+interface range       
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+      
+  
+  
+
+  description Your description here
+  ... other configuration commands ...

@@ -1,0 +1,35 @@
+---
+- name: Example Playbook
+  hosts: localhost
+  gather_facts: False
+
+  tasks:
+    - name: Format Cisco interface list
+      debug:
+        msg: "{{ interfaces | format_cisco_interface_list | split (', ')}}"
+      vars:
+        interfaces:
+          - Gi1/0/1
+          - Gi1/0/2
+          - Gi1/0/3
+          - Gi1/0/4
+          - Gi1/0/5
+          - Gi1/0/6
+          - Gi1/0/7
+          - Gi1/0/8
+          - Gi1/0/9
+          - Gi1/0/10
+          - Gi1/0/12
+          - Gi2/0/1
+          - Gi2/0/2
+          - Gi2/0/3
+          - Gi2/0/4
+          - Gi2/0/5
+          - Gi2/0/6
+          - Gi2/0/7
+          - Gi2/0/8
+          - Gi2/0/9
+          - Gi2/0/10
+          - Gi3/1/1
+          - Gi3/0/10
+          - Gi3/0/11
